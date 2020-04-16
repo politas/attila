@@ -130,11 +130,11 @@ textarea {
 	ol > li:before,
 	ul > li:before {
 		position: absolute;
-		width: 1.5em;
+		width: 1.8em;
 		margin-left: -2em;
-		font-size: 1em;
+		font-size: 3em;
 		font-weight: 500;
-		line-height: 1.5em;
+		line-height: 0.2em;
 		text-align: right;
 		color: $color-primary;
 		font-family: 'Fira Sans', sans-serif;
@@ -142,7 +142,7 @@ textarea {
 
 	ul > li:before {
 		margin-top: -1px;
-		content: '·';
+		content: '˒';
 	}
 
 	ol {
